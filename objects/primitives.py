@@ -14,7 +14,7 @@ def is_json_serializable(obj):
         return False
 
 
-def create(source, return_json=True):
+def create_obj_from_definition(source, return_json=True):
     obj = SimpleNamespace()
     for k, v in source.items():
         if type(v) is dict:

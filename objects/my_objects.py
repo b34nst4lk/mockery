@@ -51,8 +51,6 @@ Queue = {
     "Status": PrimitiveEnum(["Waiting", "Calling", "Missed"])
 }
 
-def main():
-    print(dict_to_object(User))
-
-if __name__ == "__main__":
-    main()
+Welcome = {
+    "text": "welcome"
+}
