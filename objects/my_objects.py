@@ -35,7 +35,7 @@ SubscriptionPlan = {
 }
 
 GrandChild = {
-    "lost_track": Collection(SubscriptionPlan)
+    "lost_track": Collection(PrimitiveInt())
 }
 
 Child = {
@@ -43,7 +43,7 @@ Child = {
 }
 
 Parent = {
-    "child": Child
+    "child": GrandChild
 }
 
 Queue = {

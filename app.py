@@ -1,6 +1,5 @@
 from quart import Quart, request
 from objects import *
-from my_objects import *
 from config import Development, Production
 import os
 
