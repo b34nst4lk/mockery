@@ -50,3 +50,7 @@ Queue = {
     "QueueNo": Int(lower=1000, upper=9999),
     "Status": Enum(["Waiting", "Calling", "Missed"])
 }
+
+Welcome = {
+    "text": "welcome"
+}

@@ -127,7 +127,7 @@ def Set(collection: set = set(),
 
 def Optional(return_obj):
     """
-    Randomly returns null or the return_obj 
+    Randomly returns null or the return_obj
     """
     def func():
         if choice([True, False]):
